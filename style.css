@@ -55,6 +55,7 @@ header{
     color: var(--text-colot);
     font-weight: 400;
 }
+
 #cart-icon{
     font-size: 1.8rem;
     cursor: pointer;
@@ -63,7 +64,7 @@ header{
     position: fixed;
     top: 0;
     right: 0;
-    width: 360px;
+    width: 400px;
     min-height: 100vh;
     padding: 20px;
     background: var(--bg-color);
@@ -75,6 +76,37 @@ header{
     font-size: 2rem;
     font-weight: 600;
     margin-top: 2rem;
+}
+.cart-box{
+    display: grid;
+    grid-template-columns: 32% 50% 18%;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+.cart-img{
+   width: 200px;
+   height: 200px;
+   object-fit: contain;
+   padding: 10px ; 
+}
+.detain-box{
+    display: grid;
+    row-gap: 0.5rem;
+}
+.cart-product-title{
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+.cart-price{
+    font-weight: 500;
+}
+.cart-quantity{
+    border: 1ps solid var(--text-colot);
+    outline-color: var(--main-color);
+    width: 2.4rem;
+    text-align: center;
+    font-size: 1rem;
 }
 .section-title{
     font-size: 1.5rem;
